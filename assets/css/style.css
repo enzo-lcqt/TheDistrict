@@ -87,6 +87,11 @@
     object-fit: cover;
   }
 
+  .card-img-top4 {
+    max-height: 11.5rem;
+    object-fit: cover;
+  }
+
   .card {
     text-align: center;
   }
