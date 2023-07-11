@@ -87,9 +87,6 @@
     object-fit: cover;
   }
 
-
-
-
   .card {
     text-align: center;
   }
@@ -104,3 +101,21 @@
 .text-red {
     color: red;
 }
+
+.reseau {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #000;
+  color: #fff;
+  height: 100px;
+  left: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
