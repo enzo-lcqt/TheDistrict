@@ -11,38 +11,10 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
-        <div class="container-fluid">
-            <a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" href="#">The District</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item pe-4">
-                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="decouvrir.html">Découvrir</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="contact.php">Contact</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="btn btn-order rounded-0" href="commande.html">Passer une commande</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+<?php
+include('assets/exo_php/header.php')
+?>
     
     <section class="cc-menu merriweather py-5">
         <div class="container">
@@ -59,7 +31,6 @@
                             <p class="card-text">
                                 un énorme steack haché, une rondelle de cornichon, du bacon et du cheddar fondant
                             </p>
-                            <a class="btn btn-primary" href="burger.html">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
@@ -71,7 +42,6 @@
                             <p class="card-text">
                                 deux steack haché, une rondelle de cornichon, des oignons , des rondelles de tomates et du cheddar fondant
                             </p>
-                            <a id="ajouter-au-panier-btn" class="btn btn-primary" data-prix="10.99">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +53,6 @@
                             <p class="card-text">
                                 un steack haché, une rondelle de cornichon , des rondelles de tomates, et du cheddar fondant
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
@@ -95,7 +64,6 @@
                             <p class="card-text">
                                 un steack haché, une rondelle de cornichon, des oignons , des rondelles de tomates, du bacon et du cheddar fondant
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +75,6 @@
                             <p class="card-text">
                                 un steack haché, une rondelle de cornichon, des oignons , du bacon et du cheddar fondant
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
@@ -119,7 +86,7 @@
                             <p class="card-text">
                                 saumon, tartiflette, chorizo...
                             </p>
-                            <a class="btn btn-primary" href="pizza.html">Passer au pizza</a>
+                            <a class="btn btn-primary" href="pizza.php">Passer au pizza</a>
                         </div>
                     </div>
                 </div>            
@@ -127,7 +94,10 @@
         </div>
     </section>
     
-    
+    <br><br>
+    <?php
+include('assets/exo_php/footer.php')
+?>
 
 
 		<script src="assets/js/bootstrap.bundle.min.js"></script>

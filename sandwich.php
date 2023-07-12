@@ -11,38 +11,9 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
-        <div class="container-fluid">
-            <a class="navbar-brand text-uppercase mx-4 py-3 fw-bolder" href="#">The District</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item pe-4">
-                        <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="decouvrir.html">Découvrir</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item pe-4">
-                        <a class="btn btn-order rounded-0" href="#">Passer une commande</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php
+include('assets/exo_php/header.php')
+?>
     
     <section class="cc-menu merriweather py-5">
         <div class="container">
@@ -53,73 +24,68 @@
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card">
-                        <img src="assets/img/food/boeuf.jpg" class="card-img-top3" alt="..." />
+                        <img src="assets/img/food/sandboeauf.jpeg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">boeuf</h5>
                             <p class="card-text">
                                 cheeseburger, double steack, big burger...
                             </p>
-                            <a class="btn btn-primary" href="burger.html">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="assets/img/food/Food-Name-3461.jpg" class="card-img-top1" alt="..." />
+                        <img src="assets/img/food/sandpoulet.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">poulet</h5>
                             <p class="card-text">
                                 chorizo, tartiflette, saumon...
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="assets/img/food/poisson.jpg" class="card-img-top1" alt="..." />
+                        <img src="assets/img/food/sandthon.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">poisson</h5>
+                            <h5 class="card-title">thon</h5>
                             <p class="card-text">
                                 truffes, carbonara, légumes...
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="assets/img/food/composer.jpg" class="card-img-top1 " alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">a composer</h5>
-                            <p class="card-text">
-                                sushis, nems, ramens...
-                            </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/img/food/vegie.png" class="card-img-top1" alt="..." />
+                        <img src="assets/img/food/sandvegi.jpg" class="card-img-top1 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">vegie</h5>
                             <p class="card-text">
-                                boeuf, poisson, poulet...
+                                sushis, nems, ramens...
                             </p>
-                            <a class="btn btn-primary">Ajouter au panier</a>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="assets/img/food/sandboeauf.jpeg" class="card-img-top1" alt="..." />
+                        <img src="assets/img/food/Food-Name-3631.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">sandwich</h5>
+                            <h5 class="card-title">croque monsieur</h5>
                             <p class="card-text">
-                                poulet, boeuf, thon...
+                                boeuf, poisson, poulet...
                             </p>
-                            <a class="btn btn-primary" href="sandwich.html">Passer au sandwich</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="assets/img/Carousel/Nous-Contacter.png" class="card-img-top1" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title">Contact</h5>
+                            <p class="card-text">
+                                renseignez votre mail...
+                            </p>
+                            <a class="btn btn-primary" href="contact.php">créer votre compte</a>
                         </div>
                     </div>
                 </div>            
@@ -127,7 +93,10 @@
         </div>
     </section>
     
-    
+    <br><br>
+    <?php
+include('assets/exo_php/footer.php')
+?>
 
 
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
