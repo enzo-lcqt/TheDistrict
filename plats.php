@@ -6,17 +6,16 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
+<link rel="stylesheet" href="/assets/css/plats.css" />
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/assets/css/plats.css" />
+		
 </head>
 <body>
 <?php
 include('assets/exo_php/header.php')
 ?>
     
-    
-    <section class="cc-menu merriweather py-5">
+     <section class="cc-menu merriweather py-5"> 
         <div class="container">
           <div class="row">
             <h3 class="text-center text-light merriweather">Nos plats</h3>

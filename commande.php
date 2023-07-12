@@ -38,7 +38,7 @@ include('assets/exo_php/header.php')
                 <h2>Prix total :</h2>
                 <p id="prix-total"></p>
                 <button onclick="resetPanier()">Réinitialiser</button>
-                <button onclick="finaliser()">formulaire</button>
+                <button onclick="finaliser()">finaliser commande</button>
             </div>
             <script>
                 function resetPanier() {
