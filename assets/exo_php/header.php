@@ -8,8 +8,8 @@
 
 <!-- Bootstrap core CSS -->
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="/assets/css/style.css" />
 <script src="https://kit.fontawesome.com/88b3df3889.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <nav class="cc-navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
@@ -32,16 +32,16 @@
 							<a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
 						</li>
 						<li class="nav-item pe-4">
-							<a class="nav-link" href="decouvrir.php">Découvrir</a>
+							<a class="nav-link active" href="decouvrir.php">Découvrir</a>
 						</li>
 						<li class="nav-item pe-4">
-							<a class="nav-link" href="plats.php">Plats</a>
+							<a class="nav-link active" href="plats.php">Plats</a>
 						</li>
 						<li class="nav-item pe-4">
-							<a class="nav-link" href="contact.php">Contact</a>
+							<a class="nav-link active" href="contact.php">Contact</a>
 						</li>
 						<li class="nav-item pe-4">
-							<a class="btn btn-order rounded-0" href="commande.php">Passer une commande</a>
+							<a class="btn btn-order rounded-0 active" href="commande.php">Passer une commande</a>
 						</li>
 					</ul>
 				</div>

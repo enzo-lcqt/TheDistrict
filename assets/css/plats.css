@@ -3,6 +3,9 @@
 
 
 
+section {
+background-color: black;}
+
 .redressed {
 	font-family: 'Redressed', cursive;
 }
@@ -45,11 +48,6 @@
 	color: #fff;
 }
 
-.cc-menu {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/banniere5.jpg') center center fixed no-repeat;
-	background-size: cover;
-	height: 1200px;
-}
 
 .btn-order {
 	color: var(--bs-teal);
@@ -124,4 +122,5 @@
 a {
   text-decoration: none;
 }
+
 

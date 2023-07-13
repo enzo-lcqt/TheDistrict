@@ -28,6 +28,7 @@
 include('assets/exo_php/header.php')
 ?>
 
+<section class="cc-menu merriweather py-5 centered-form"> 
 <br><br><br><br><br><br><br>
             <div class="text-center" >
                 <h1>Mon Panier</h1>
@@ -47,7 +48,7 @@ include('assets/exo_php/header.php')
                     sessionStorage.removeItem("prixTotal");
         
                     // Rediriger vers la page principale
-                    window.location.href = "plats.html";
+                    window.location.href = "plats.php";
                 }
         
                 document.addEventListener("DOMContentLoaded", function () {
@@ -107,11 +108,11 @@ include('assets/exo_php/header.php')
                 }
             </script>
 
+</section>
 
 <br><br>
     <?php
 include('assets/exo_php/footer.php')
 ?>
-
 </body>
 </html>

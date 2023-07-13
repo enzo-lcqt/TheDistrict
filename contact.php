@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/style.css" />
 
     <style>
         body {
@@ -25,8 +24,8 @@ include('assets/exo_php/header.php')
 ?>
 
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
     
+    <section class="cc-menu merriweather py-5 centered-form"> 
     <form id="monFormulaire" action="traitement_formulaire.php" method="POST">
         <div class="container">
             <div class="row">
@@ -80,7 +79,7 @@ include('assets/exo_php/header.php')
             </div>
         </div>
 
-        <br><br>
+        <br>
 
 
         <div class="container-fluid">
@@ -95,13 +94,18 @@ include('assets/exo_php/header.php')
             </div>
         </div>
 
-
+<br>
         <div class="container-fluid">
             <div class="text-end">
                 <button class="btn btn-primary" type="submit" onclick="validerFormulaire()">Envoyer</button>
             </div>
         </div>
     </form>
+    </section>
+
+<?php
+include('assets/exo_php/footer.php')
+?>
 
 
 <script src="assets/js/contact.js"></script>

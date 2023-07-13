@@ -9,13 +9,15 @@
 
 		<!-- Bootstrap core CSS -->
 		<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/assets/css/style.css" />
 		<script src="https://kit.fontawesome.com/88b3df3889.js" crossorigin="anonymous"></script>
+
+
+
 </head>
 <body>
-    <div class="reseau">
+    <div class="reseau no-decoration">
 			<a href="https://www.instagram.com/">
-				<i class="fa-brands fa-instagram fa-spin fa-2xl" style="color: #000000;"></i>
+				<i class="fa-brands fa-instagram fa-spin fa-2xl" style="color: #000000; "></i>
 				<div class="insta">
 					<p>&emsp;</p>
 				</div>

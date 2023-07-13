@@ -510,6 +510,7 @@ include('assets/exo_php/header.php')
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 
     <br><br>
+    
     <?php
 include('assets/exo_php/footer.php')
 ?>
