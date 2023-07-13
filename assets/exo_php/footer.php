@@ -10,8 +10,14 @@
 		<!-- Bootstrap core CSS -->
 		<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 		<script src="https://kit.fontawesome.com/88b3df3889.js" crossorigin="anonymous"></script>
-
-
+<style>
+a {
+	text-decoration: none;
+}
+p {
+	text-decoration: none;
+}
+</style>
 
 </head>
 <body>

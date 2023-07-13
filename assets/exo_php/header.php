@@ -41,7 +41,7 @@
 							<a class="nav-link active" href="contact.php">Contact</a>
 						</li>
 						<li class="nav-item pe-4">
-							<a class="btn btn-order rounded-0 active" href="commande.php">Passer une commande</a>
+							<a class="btn btn-order rounded-0 active" href="commande.php" style="color: #fff">Passer une commande</a>
 						</li>
 					</ul>
 				</div>
