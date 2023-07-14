@@ -50,7 +50,7 @@ include('assets/exo_php/header.php')
 									<p class="card-text">
 										Découvrez nos pizzas cuitent au feux de bois 
 									</p>
-									<p class="card-text"><a href="pizza.html" class="btn text-muted">Découvrir les pizzas</a></p>
+									<p class="card-text"><a href="pizza.php" class="btn text-muted">Découvrir les pizzas</a></p>
 								</div>
 							</div>
 						</div>
@@ -117,7 +117,7 @@ include('assets/exo_php/header.php')
 									<p class="card-text">
 										Découvrez nos burgers préparer mains 
 									</p>
-									<p class="card-text"><a href="burger.html" class="btn text-muted">Découvrir les burgers</a></p>
+									<p class="card-text"><a href="burger.php" class="btn text-muted">Découvrir les burgers</a></p>
 								</div>
 							</div>
 						</div>
