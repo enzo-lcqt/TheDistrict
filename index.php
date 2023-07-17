@@ -30,7 +30,10 @@ include('assets/exo_php/header.php')
 							Restaurant TheDistrict à <br />
 							votre goût dans la ville de Amiens
 						</h1>
-						
+						<form class="search-form">
+          <input type="text" placeholder="Rechercher..." />
+          <button type="submit">Rechercher</button>
+        </form>
 					</div>
 				</div>
 			</div>
