@@ -139,25 +139,25 @@ include('assets/exo_php/header.php')
 				<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="assets/img/Carousel/carousel2.jpg" class="d-block w-100" alt="..." />
+							<img src="assets/img/Carousel/carousel6.jpg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Le gout de la légèreté</h5>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="assets/img/Carousel/carousel1.jpg" class="d-block w-100" alt="..." />
+							<img src="assets/img/Carousel/carousel7.jpeg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Un décors qui facilite la digestion</h5>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="assets/img/Carousel/carousel3.jpg" class="d-block w-100" alt="..." />
+							<img src="assets/img/Carousel/carousel8.jpg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>Un environnement calme et décontractant</h5>
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="assets/img/Carousel/carousel4.jpg" class="d-block w-100" alt="..." />
+							<img src="assets/img/Carousel/carousel9.jpg" class="d-block w-100" alt="..." />
 							<div class="carousel-caption d-none d-md-block">
 								<h5>L'hygiène est au rendez-vous</h5>
 							</div>
