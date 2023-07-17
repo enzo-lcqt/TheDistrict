@@ -9,6 +9,16 @@
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/css/plats.css" />
+
+        <style>
+            .zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+        </style>
 </head>
 <body>
     <?php
@@ -23,62 +33,62 @@ include('assets/exo_php/header.php')
             <br><br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/boeuf.jpg" class="card-img-top3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">boeuf</h5>
                             <p class="card-text">
-                                cheeseburger, double steack, big burger...
+                                wrap a la viande de boeuf
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/Food-Name-3461.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">poulet</h5>
                             <p class="card-text">
-                                chorizo, tartiflette, saumon...
+                                wrap a la viande de poulet
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/poisson.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">poisson</h5>
                             <p class="card-text">
-                                truffes, carbonara, légumes...
+                                wrap au poisson
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/composer.jpg" class="card-img-top1 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">a composer</h5>
                             <p class="card-text">
-                                sushis, nems, ramens...
+                               wrap a composer soit meme
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/vegie.png" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">vegie</h5>
                             <p class="card-text">
-                                boeuf, poisson, poulet...
+                               wrap vegie
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sandboeauf.jpeg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">sandwich</h5>

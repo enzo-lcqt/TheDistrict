@@ -9,6 +9,16 @@
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/css/plats.css" />
+
+        <style>
+            .zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+        </style>
 </head>
 <body>
 <?php
@@ -23,62 +33,62 @@ include('assets/exo_php/header.php')
             <br><br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sandboeauf.jpeg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">boeuf</h5>
                             <p class="card-text">
-                                cheeseburger, double steack, big burger...
+                               sandwich a la viande de boeuf
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sandpoulet.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">poulet</h5>
                             <p class="card-text">
-                                chorizo, tartiflette, saumon...
+                                sandwich a la viande de poulet
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sandthon.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">thon</h5>
                             <p class="card-text">
-                                truffes, carbonara, légumes...
+                                sandwich au thon
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sandvegi.jpg" class="card-img-top1 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">vegie</h5>
                             <p class="card-text">
-                                sushis, nems, ramens...
+                            sandwich veggan
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/Food-Name-3631.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">croque monsieur</h5>
                             <p class="card-text">
-                                boeuf, poisson, poulet...
+                            jambon, pain de mie, fromage fondu
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/Carousel/Nous-Contacter.png" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Contact</h5>

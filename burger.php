@@ -9,6 +9,16 @@
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/css/plats.css" />
+
+        <style>
+            .zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+        </style>
 </head>
 <body>
 
@@ -24,7 +34,7 @@ include('assets/exo_php/header.php')
             <br><br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/Food-Name-6340.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Big</h5>
@@ -35,7 +45,7 @@ include('assets/exo_php/header.php')
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/Food-Name-433.jpeg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">double steack</h5>
@@ -46,7 +56,7 @@ include('assets/exo_php/header.php')
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/burger_cat.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">classic</h5>
@@ -57,7 +67,7 @@ include('assets/exo_php/header.php')
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/hamburger.jpg" class="card-img-top3 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">hamburger</h5>
@@ -68,7 +78,7 @@ include('assets/exo_php/header.php')
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/cheesburger.jpg" class="card-img-top3" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">cheeseburger</h5>
@@ -79,7 +89,7 @@ include('assets/exo_php/header.php')
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pizza-au-chorizo.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">pizza</h5>

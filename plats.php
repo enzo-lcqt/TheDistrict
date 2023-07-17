@@ -384,7 +384,7 @@ include('assets/exo_php/header.php')
     }else if (idProduit === 9) {
         produit.image = "assets/img/food/pizza-salmon.png"
       produit.nom = "saumon";
-      produit.description = "poivrons, tomate, chorizo, oignons, basilic, cheddar, sel, sucre";
+      produit.description = "saumon, crème, citron, basilic frais";
       produit.prix = 12.00;
     }else if (idProduit === 10) {
         produit.image = "assets/img/food/pizzatar.jpg"

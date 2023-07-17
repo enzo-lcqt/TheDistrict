@@ -9,6 +9,16 @@
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/css/plats.css" />
+
+        <style>
+            .zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+        </style>
 </head>
 <body>
 
@@ -25,62 +35,62 @@ include('assets/exo_php/header.php')
             <br><br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/asiatvegi.png" class="card-img-top2" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">vegie</h5>
                             <p class="card-text">
-                                cheeseburger, double steack, big burger...
+                               plats vegie
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/porcara.png" class="card-img-top2" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">porc caramel</h5>
                             <p class="card-text">
-                                chorizo, tartiflette, saumon...
+                                émincés de porc cuit dans sa sauce caramel
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/mer.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">fruits de mer</h5>
                             <p class="card-text">
-                                truffes, carbonara, légumes...
+                                beignets de calamar, crevette, tomate cerise, citron
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/nems.png" class="card-img-top1 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">nems</h5>
                             <p class="card-text">
-                                sushis, nems, ramens...
+                                nems aux poulet,porc,poisson
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/sushis.png" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">sushis</h5>
                             <p class="card-text">
-                                boeuf, poisson, poulet...
+                                riz, saumon, algue, avocat
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pates-a-la-carbonara.jpeg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">wrap</h5>

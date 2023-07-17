@@ -9,6 +9,16 @@
 
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="assets/css/plats.css" />
+
+        <style>
+            .zoom-effect {
+  transition: transform 0.3s ease;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
+        </style>
 </head>
 <body>
 <?php
@@ -23,62 +33,62 @@ include('assets/exo_php/header.php')
             <br><br><br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pizza-au-chorizo.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">chorizo</h5>
                             <p class="card-text">
-                                cheeseburger, double steack, big burger...
+                            pizza avec ces chorizos
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pizza-margherita.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">margherita</h5>
                             <p class="card-text">
-                                chorizo, tartiflette, saumon...
+                            garnie de tomates, de mozzarella, de basilic frais, de sel
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pizza-salmon.png" class="card-img-top2" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">saumon</h5>
                             <p class="card-text">
-                                truffes, carbonara, légumes...
+                            saumon, crème, citron, basilic frais
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pizzatar.jpg" class="card-img-top1 " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">tartiflette</h5>
                             <p class="card-text">
-                                sushis, nems, ramens...
+                            lardons, oignon, creme fraiche, reblochon, pomme de terre,
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/Food-Name-8298.jpg" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">vegie</h5>
                             <p class="card-text">
-                                boeuf, poisson, poulet...
+                                pizza vegie
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card zoom-effect">
                         <img src="assets/img/food/pates-a-la-carbonara.jpeg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">pâtes</h5>

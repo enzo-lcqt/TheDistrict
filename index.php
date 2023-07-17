@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<script src="https://kit.fontawesome.com/88b3df3889.js" crossorigin="anonymous"></script>
 
-		<title>Projet formation</title>
+		<title>TheDistrict | accueil</title>
 
         
 	</head>
@@ -21,12 +21,12 @@
 include('assets/exo_php/header.php')
 ?>
 
-		<section class="banner d-flex justify-content-center align-items-center pt-5">
-			<div class="container my-5 py-5">
-				<div class="row">
-					<div class="col-md-6"></div>
-					<div class="col-md-6 banner-desc lh-lg">
-						<h1 class="text-capitalize py-3 redressed">
+		<section class="banner d-flex justify-content-center align-items-center pt-5"> <!-- crée section de banniere -->
+			<div class="container my-5 py-5"> <!-- crée un conteneur -->
+				<div class="row"> <!-- crée une rangée -->
+					<div class="col-md-6"></div> <!-- crée une colonne vide -->
+					<div class="col-md-6 banner-desc lh-lg"> <!-- crée une colonne avec un style -->
+						<h1 class="text-capitalize py-3 redressed"> <!-- crée un titre -->
 							Restaurant TheDistrict à <br />
 							votre goût dans la ville de Amiens
 						</h1>
@@ -45,10 +45,10 @@ include('assets/exo_php/header.php')
 					<div class="card mb-3 border-0 rounded-0">
 						<div class="row">
 							<div class="col-md-6">
-								<img src="assets/img/banniere6.jpg" class="img-fluid" alt="..." />
+								<img src="assets/img/banniere6.jpg" class="img-fluid" alt="..." />  <!-- Affiche une image avec la classe "img-fluid" qui assure qu'elle s'adapte à la taille de son conteneur -->
 							</div>
 							<div class="col-md-6">
-								<div class="card-body px-0">
+								<div class="card-body px-0">  <!-- Crée le corps de la carte avec aucun espace de remplissage horizontal -->
 									<h3 class="card-title">Nos pizzas</h3>
 									<p class="card-text">
 										Découvrez nos pizzas cuitent au feux de bois 
@@ -92,7 +92,7 @@ include('assets/exo_php/header.php')
 										data-bs-slide="prev"
 									>
 										<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-										<span class="visually-hidden">Previous</span>
+										<span class="visually-hidden">Previous</span> 	<!-- Crée un bouton pour faire défiler le carrousel vers la gauche -->
 									</button>
 									<button
 										class="carousel-control-next"
@@ -101,7 +101,7 @@ include('assets/exo_php/header.php')
 										data-bs-slide="next"
 									>
 										<span class="carousel-control-next-icon" aria-hidden="true"></span>
-										<span class="visually-hidden">Next</span>
+										<span class="visually-hidden">Next</span> 	<!-- Crée un bouton pour faire défiler le carrousel vers la droite -->
 									</button>
 								</div>
 							</div>
