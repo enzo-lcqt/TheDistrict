@@ -87,7 +87,7 @@ include('assets/exo_php/header.php')
                 <div class="col-2">
                     <label for="exampleFormControlTextarea1" class="form-label">Votre demande :</label>
                 </div>
-                <div class="col-11">
+                <div class="col-12">
                     <textarea class="form-control w-100" id="exampleFormControlTextarea1" rows="3" name="demande"
                         placeholder="Votre demande:"></textarea>
                 </div>

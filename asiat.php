@@ -91,7 +91,7 @@ include('assets/exo_php/header.php')
                 </div>
                 <div class="col">
                     <div class="card zoom-effect">
-                        <img src="assets/img/food/pates-a-la-carbonara.jpeg" class="card-img-top1" alt="..." />
+                        <img src="assets/img/food/boeuf.jpg" class="card-img-top1" alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">wrap</h5>
                             <p class="card-text">
