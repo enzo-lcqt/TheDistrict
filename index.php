@@ -17,8 +17,7 @@
         
 	</head>
 	<body>
-	<?php
-	 
+	<?php 
 include('assets/exo_php/header.php')
 ?>
 
